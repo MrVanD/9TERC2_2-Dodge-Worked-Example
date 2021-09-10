@@ -7,11 +7,15 @@ import pygame                               # Imports pygame and other libraries
 pygame.init()                               # Pygame is initialised (starts running)
 
 screen = pygame.display.set_mode([700,500]) # Set the width and height of the screen [width,height]
-pygame.display.set_caption("Dodge")       # Name your window
+pygame.display.set_caption("Mr van's Dodge Game")         # Name your window
 done = False                                # Loop until the user clicks the close button.
 clock = pygame.time.Clock()                 # Used to manage how fast the screen updates
-black    = (   0,   0,   0)                 # Define some colors using rgb values.  These can be
-white    = ( 255, 255, 255)                 # used throughout the game instead of using rgb values.
+BLACK    = (   0,   0,   0)                 # Define some colors using rgb values.  These can be
+WHITE    = ( 255, 255, 255)                 # used throughout the game instead of using rgb values.
+RED      = ( 255, 0, 0)
+GREEN    = (0, 255, 0)
+BLUE     = (0, 0, 255)
+
 
 # Define additional Functions and Procedures here
 
